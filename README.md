@@ -27,3 +27,29 @@ We then solve this linear programming problem by use of the Simplex Method - (us
 ![alt text](Images/Simplex_image.PNG)
 
 ```x* = (50 / 7, 0, 55 / 7, 0)  =  (7.14, 0, 7.86, 0) and z* = $ 695 / 7 = $99.29. The actual resources used are  15, 73.57 and 100 units for manweeks, material Y and material Z, respectively``` 
+
+Let us assume that the available  constraints in the above problem are imprecise with a tolerance of 25%. Then the membership function of fuzzy constraints are
+
+```
+                     1					if g1(x)  <  15
+μ1(x) =    1 - [ (g1(x) - 15) / 4]        		if 15 <  g1(x)  <  1
+                     0					if g1(x)  >  19
+              
+```
+![alt text](Images/graph1.PNG)
+
+```
+                     1				      	if g2(x) < 120
+μ2(x) =     1 - [ (g2(x) - 120) / 30]        	       if 120 <  g2(x)  <  150
+	              0					if g2(x) > 150
+              
+```
+![alt text](Images/graph2.PNG)
+
+``` 
+      	       1				     	if g3(x) < 100
+μ3(x) =    1 - [ (g3(x) - 100) / 25]        	if 100 <  g3(x)  <  125
+	       0				   	if g3(x) > 125
+
+```
+![alt text](Images/graph3.PNG)
