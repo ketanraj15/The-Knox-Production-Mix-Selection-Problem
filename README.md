@@ -15,12 +15,12 @@ Let us consider a product-mix selection problem . Suppose that the Knox Mix comp
 
 ## Formulation of Optimization Problem
 
-With production levels in processes 1, 2, 3, 4 as x1, x2, x3, x4 respectively. The problem can then be formulated as 
-z = 4x1 + 5x2 + 9x3 + 11x4			(Profit)
-       Max z subject to constraints
-g1(x)  =   x1 + x2 + x3 + x4   <  15			(Man Weeks)
-g2(x)  =   7x1 + 5x2 + 3x3 + 2x4  <  120		(Material Y)
-g3(x)  =   3x1 + 5x2 + 10x3 + 15x4  < 100		(Material Z)
+With production levels in processes 1, 2, 3, 4 as x1, x2, x3, x4 respectively. The problem can then be formulated as <br />
+z = 4x1 + 5x2 + 9x3 + 11x4			(Profit)<br />
+       Max z subject to constraints <br />
+g1(x)  =   x1 + x2 + x3 + x4   <  15			(Man Weeks) <br />
+g2(x)  =   7x1 + 5x2 + 3x3 + 2x4  <  120		(Material Y) <br />
+g3(x)  =   3x1 + 5x2 + 10x3 + 15x4  < 100		(Material Z) <br />
 
 We then solve this linear programming problem by use of the Simplex Method - (using Tora Software) . The optimal solution is: 
 
