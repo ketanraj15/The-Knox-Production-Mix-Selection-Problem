@@ -53,3 +53,26 @@ Let us assume that the available  constraints in the above problem are imprecise
 
 ```
 ![alt text](Images/graph3.PNG)
+
+Thus we have the following problem to solve:
+```
+		           z = 4x1 + 5x2 + 9x3 + 11x4	
+         Max z subject to constraints
+       	
+  		μ1(x)   >    𝜶  
+	  	μ2(x)   >    𝜶
+  		μ3(x)   >    𝜶
+
+	𝜶 ∈ [0, 1] 	and 	x1, x2, x3, x4 > 0 
+```
+which is nothing but:
+```
+ 		z = 4x1 + 5x2 + 9x3 + 11x4	
+          Max z subject to constraints
+ g1(x)  =   x1 + x2 + x3 + x4   <  15 + 4(1 - 𝜶)        		(Man Weeks)
+ g2(x)  =   7x1 + 5x2 + 3x3 + 2x4  <  120 + 30(1 - 𝜶)   		(Material Y)
+ g3(x)  =   3x1 + 5x2 + 10x3 + 15x4  < 100 + 25(1 - 𝜶)	  	        (Material Z)
+	𝜶 ∈ [0, 1] 	and 	x1, x2, x3, x4 > 0
+```
+
+
