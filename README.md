@@ -84,6 +84,10 @@ z = 4x1 + 5x2 + 9x3 + 11x4
 
 ```
 where θ ∈  [0, 1] is a parameter. By use of the parametric technique and the final table of the simplex method shown in Table above, we can obtain the following parametric results:  (15θ/7,  66θ/7, 13θ/7)  
-The final simplex table is shown below. Since the RHS ( 50/7 + 15θ/7 ), (325/7 + 66θ/7) and (55/7 + 13θ/7), for θ ∈ [0, 1], are always greater than zero, the optimal solution is then: 
-        **x* = (7.14 + 2.14θ, 0, 7.86 + 1.85θ, 0), and z* = $ (99.29 + 13.43θ). **
+The final simplex table is shown below. Since the RHS ( 50/7 + 15θ/7 ), (325/7 + 66θ/7) and (55/7 + 13θ/7), for θ ∈ [0,1], are always greater than zero, the optimal solution is then: 
+        `` x* = (7.14 + 2.14θ, 0, 7.86 + 1.85θ, 0), and z* = $ (99.29 + 13.43θ). ``
+	
+The final parametric tableau of the simplex method for the Knox selection problem:
+
+![alt text](Images/Problem_image.PNG)
 
