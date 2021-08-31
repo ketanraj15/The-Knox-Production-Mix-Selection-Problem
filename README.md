@@ -74,5 +74,16 @@ which is nothing but:
  g3(x)  =   3x1 + 5x2 + 10x3 + 15x4  < 100 + 25(1 - 𝜶)	  	        (Material Z)
 	𝜶 ∈ [0, 1] 	and 	x1, x2, x3, x4 > 0
 ```
+Set θ = 1 - 𝜶, we get the following parametric programming problem
+```
+z = 4x1 + 5x2 + 9x3 + 11x4	
+          Max z subject to constraints
+ g1(x)  =   x1 + x2 + x3 + x4   <  15 + 4θ       			(Man Weeks)
+ g2(x)  =   7x1 + 5x2 + 3x3 + 2x4  <  120 + 30θ		   		(Material Y)
+ g3(x)  =   3x1 + 5x2 + 10x3 + 15x4  < 100 + 25θ 	    	        (Material Z)
 
+```
+where θ ∈  [0, 1] is a parameter. By use of the parametric technique and the final table of the simplex method shown in Table above, we can obtain the following parametric results:  (15θ/7,  66θ/7, 13θ/7)  
+The final simplex table is shown below. Since the RHS ( 50/7 + 15θ/7 ), (325/7 + 66θ/7) and (55/7 + 13θ/7), for θ ∈ [0, 1], are always greater than zero, the optimal solution is then: 
+        **x* = (7.14 + 2.14θ, 0, 7.86 + 1.85θ, 0), and z* = $ (99.29 + 13.43θ). **
 
